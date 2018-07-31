@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KtCustomFonts</string>
+    <string name="gothamssm_black">GothamSSm-Black</string>
+    <string name="gothamssm_black_italic">GothamSSm-Black-Italic</string>
+    <string name="gothamssm_bold">GothamSSm-Bold</string>
+    <string name="gothamssm_bold_italic">GothamSSm-Bold-Italic</string>
+    <string name="gothamssm_book">GothamSSm-Book</string>
+    <string name="gothamssm_book_italic">GothamSSm-Book-Italic</string>
+    <string name="gothamssm_light">GothamSSm-Light</string>
+    <string name="gothamssm_light_italic">GothamSSm-Light-Italic</string>
+    <string name="gothamssm_medium">GothamSSm-Medium</string>
+    <string name="gothamssm_medium_italic">GothamSSm-Medium-Italic</string>
+    <string name="gothamssm_extra_light">GothamSSm-Extra-Light</string>
+    <string name="gothamssm_extra_light_italic">GothamSSm-Extra-Light-Italic</string>
+</resources>

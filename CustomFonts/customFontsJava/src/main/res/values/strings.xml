@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">KtCustomFonts</string>
+    <string name="app_name">CustomFonts</string>
     <string name="gothamssm_black">GothamSSm-Black</string>
     <string name="gothamssm_black_italic">GothamSSm-Black-Italic</string>
     <string name="gothamssm_bold">GothamSSm-Bold</string>

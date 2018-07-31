@@ -30,8 +30,8 @@ class CFTextView : AppCompatTextView {
     private fun setCustomFont(context: Context?, attrs: AttributeSet?) {
         var fontType = FontManager.GOTHAMSSM_BLACK
         if (null != attrs) {
-            val array = context?.obtainStyledAttributes(attrs, R.styleable.cfView)
-            val fontTypeInt = array?.getInt(R.styleable.cfView_cfFontStyle, CFFontStyle.GOTHAMSSM_BLACK.index)
+            val array = context?.obtainStyledAttributes(attrs, R.styleable.cfkView)
+            val fontTypeInt = array?.getInt(R.styleable.cfkView_cfFontStyle, CFFontStyle.GOTHAMSSM_BLACK.index)
             array?.recycle()
             fontType = CFFontStyle.getORFontStyle(fontTypeInt).fontName
         }

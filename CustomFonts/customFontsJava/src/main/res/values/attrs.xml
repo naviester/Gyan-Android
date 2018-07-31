@@ -1,5 +1,5 @@
 <resources>
-    <declare-styleable name="cfkView">
+    <declare-styleable name="cfjView">
         <attr name="cfFontStyle" format="enum">
             <enum name="black" value="0" />
             <enum name="black_italic" value="1" />

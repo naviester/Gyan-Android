@@ -6,18 +6,16 @@ import android.graphics.Typeface
 object FontManager {
 
     private val ROOT = "fonts/"
-    val GOTHAMSSM_BLACK = ROOT + "GothamSSm-Black.otf"
-    val GOTHAMSSM_BLACK_ITALIC = ROOT + "GothamSSm-BlackItalic.otf"
-    val GOTHAMSSM_BOLD = ROOT + "GothamSSm-Bold.otf"
-    val GOTHAMSSM_BOLD_ITALIC = ROOT + "GothamSSm-BoldItalic.otf"
-    val GOTHAMSSM_BOOK = ROOT + "GothamSSm-Book.otf"
-    val GOTHAMSSM_BOOK_ITALIC = ROOT + "GothamSSm-BookItalic.otf"
-    val GOTHAMSSM_LIGHT = ROOT + "GothamSSm-Light.otf"
-    val GOTHAMSSM_LIGHT_ITALIC = ROOT + "GothamSSm-LightItalic.otf"
-    val GOTHAMSSM_MEDIUM = ROOT + "GothamSSm-Medium.otf"
-    val GOTHAMSSM_MEDIUM_ITALIC = ROOT + "GothamSSm-MediumItalic.otf"
-    val GOTHAMSSM_EXTRA_LIGHT = ROOT + "GothamSSm-XLight.otf"
-    val GOTHAMSSM_EXTRA_LIGHT_ITALIC = ROOT + "GothamSSm-XLightItalic.otf"
+    val MONTSERRAT_BLACK = ROOT + "Montserrat-Black.otf"
+    val MONTSERRAT_BOLD = ROOT + "Montserrat-Bold.otf"
+    val MONTSERRAT_EXTRA_BOLD = ROOT + "Montserrat-ExtraBold.otf"
+    val MONTSERRAT_EXTRA_LIGHT = ROOT + "Montserrat-ExtraLight.otf"
+    val MONTSERRAT_HAIRLINE = ROOT + "Montserrat-Hairline.otf"
+    val MONTSERRAT_LIGHT = ROOT + "Montserrat-Light.otf"
+    val MONTSERRAT_REGULAR = ROOT + "Montserrat-Regular.otf"
+    val MONTSERRAT_SEMI_BOLD = ROOT + "Montserrat-SemiBold.otf"
+    val MONTSERRAT_THIN = ROOT + "Montserrat-Thin.otf"
+    val MONTSERRAT_ULTRA_LIGHT = ROOT + "Montserrat-UltraLight.otf"
 
     fun getTypeface(context: Context?, font: String?): Typeface {
         return Typeface.createFromAsset(context?.assets, font)

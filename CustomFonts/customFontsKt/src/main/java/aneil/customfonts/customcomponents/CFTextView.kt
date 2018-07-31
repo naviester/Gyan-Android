@@ -28,10 +28,10 @@ class CFTextView : AppCompatTextView {
      */
     @SuppressLint("CustomViewStyleable")
     private fun setCustomFont(context: Context?, attrs: AttributeSet?) {
-        var fontType = FontManager.GOTHAMSSM_BLACK
+        var fontType = FontManager.MONTSERRAT_BLACK;
         if (null != attrs) {
             val array = context?.obtainStyledAttributes(attrs, R.styleable.cfkView)
-            val fontTypeInt = array?.getInt(R.styleable.cfkView_cfFontStyle, CFFontStyle.GOTHAMSSM_BLACK.index)
+            val fontTypeInt = array?.getInt(R.styleable.cfkView_cfFontStyle, CFFontStyle.MONTSERRAT_BLACK.index)
             array?.recycle()
             fontType = CFFontStyle.getORFontStyle(fontTypeInt).fontName
         }

@@ -38,10 +38,10 @@ public class CFTextView extends AppCompatTextView {
      */
     @SuppressLint("CustomViewStyleable")
     private void setCustomFont(Context context, AttributeSet attrs) {
-        String fontType = FontManager.GOTHAMSSM_BLACK;
+        String fontType = FontManager.MONTSERRAT_BLACK;
         if (null != attrs) {
             TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.cfjView);
-            int fontTypeInt = array.getInt(R.styleable.cfjView_cfFontStyle, CFFontStyle.GOTHAMSSM_BLACK.getIndex());
+            int fontTypeInt = array.getInt(R.styleable.cfjView_cfFontStyle, CFFontStyle.MONTSERRAT_BLACK.getIndex());
             array.recycle();
             fontType = CFFontStyle.getORFontStyle(fontTypeInt).getFontName();
         }

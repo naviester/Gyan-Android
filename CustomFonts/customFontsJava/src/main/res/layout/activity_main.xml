@@ -11,14 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:context=".CustomFontsKTActivity">
 
         <aneil.customfontsjava.customcomponents.CFTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/gothamssm_black"
+            android:text="@string/montserrat_black"
             android:textColor="@android:color/black"
             android:textSize="22sp"
             app:cfFontStyle="black" />
@@ -28,17 +29,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/gothamssm_black_italic"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            app:cfFontStyle="black_italic" />
-
-        <aneil.customfontsjava.customcomponents.CFTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/gothamssm_bold"
+            android:text="@string/montserrat_bold"
             android:textColor="@android:color/black"
             android:textSize="22sp"
             app:cfFontStyle="bold" />
@@ -48,77 +39,17 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/gothamssm_bold_italic"
+            android:text="@string/montserrat_extra_bold"
             android:textColor="@android:color/black"
             android:textSize="22sp"
-            app:cfFontStyle="bold_italic" />
+            app:cfFontStyle="x_bold" />
 
         <aneil.customfontsjava.customcomponents.CFTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/gothamssm_book"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            app:cfFontStyle="book" />
-
-        <aneil.customfontsjava.customcomponents.CFTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/gothamssm_book_italic"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            app:cfFontStyle="book_italic" />
-
-        <aneil.customfontsjava.customcomponents.CFTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/gothamssm_light"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            app:cfFontStyle="light" />
-
-        <aneil.customfontsjava.customcomponents.CFTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/gothamssm_light_italic"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            app:cfFontStyle="light_italic" />
-
-        <aneil.customfontsjava.customcomponents.CFTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/gothamssm_medium"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            app:cfFontStyle="medium" />
-
-        <aneil.customfontsjava.customcomponents.CFTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/gothamssm_medium_italic"
-            android:textColor="@android:color/black"
-            android:textSize="22sp"
-            app:cfFontStyle="medium_italic" />
-
-        <aneil.customfontsjava.customcomponents.CFTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:padding="8dp"
-            android:text="@string/gothamssm_extra_light"
+            android:text="@string/montserrat_extra_light"
             android:textColor="@android:color/black"
             android:textSize="22sp"
             app:cfFontStyle="x_light" />
@@ -128,9 +59,59 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="8dp"
-            android:text="@string/gothamssm_extra_light_italic"
+            android:text="@string/montserrat_hairline"
             android:textColor="@android:color/black"
             android:textSize="22sp"
-            app:cfFontStyle="x_light_italic" />
+            app:cfFontStyle="hairline" />
+
+        <aneil.customfontsjava.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/montserrat_light"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="light" />
+
+        <aneil.customfontsjava.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/montserrat_regular"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="regular" />
+
+        <aneil.customfontsjava.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/montserrat_semi_bold"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="semi_bold" />
+
+        <aneil.customfontsjava.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/montserrat_thin"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="thin" />
+
+        <aneil.customfontsjava.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/montserrat_ultra_light"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="ultra_light" />
     </LinearLayout>
 </ScrollView>

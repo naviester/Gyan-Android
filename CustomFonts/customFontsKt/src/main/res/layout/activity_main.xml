@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".CustomFontsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".CustomFontsActivity">
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_black"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="black" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_black_italic"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="black_italic" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_bold"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="bold" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_bold_italic"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="bold_italic" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_book"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="book" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_book_italic"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="book_italic" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_light"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="light" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_light_italic"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="light_italic" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_medium"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="medium" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_medium_italic"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="medium_italic" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_extra_light"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="x_light" />
+
+        <aneil.customfonts.customcomponents.CFTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/gothamssm_extra_light_italic"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            app:cfFontStyle="x_light_italic" />
+    </LinearLayout>
+</ScrollView>
